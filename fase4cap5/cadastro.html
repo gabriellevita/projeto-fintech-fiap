@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 U MONEY</title>
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo2.css">
+</head>
+<body>
+    <section>
+        <h1>Cadastro</h1>
+        <form action="inicio.html" method="post" autocomplete="on">
+            <p>
+                <label for="inome">Nome:</label> <br>
+                <input class="cor-fundo" type="text" name="nome" id="inome" required maxlength="30" placeholder="primeiro nome" autocomplete="name">
+            </p>
+        
+            <p>
+                <label for="isobrenome">Sobrenome:</label> <br>
+                <input class="cor-fundo" type="text" name="sobrenome" id="isobrenome" required maxlength="30" placeholder="último nome" autocomplete="name">
+            </p>
+        
+            <p>
+                <label for="iemail">Seu melhor e-mail:</label> <br>
+                <input class="cor-fundo" type="email" name="email" id="iemail" required autocomplete="email" placeholder="seuemail@exemplo.com">
+            </p>
+        
+            <p>
+                <label for="isenha">Crie uma senha:</label> <br>
+                <input class="cor-fundo" type="password" name="email" id="isenha" required minlength="8" placeholder="mínimo de 8 caracteres">
+        
+                <p>
+                    <input id="enviar" class="cor-fundo" type="submit" value="Criar conta">
+                </p>
+        </form>
+    </section>
+</body>
+</html>

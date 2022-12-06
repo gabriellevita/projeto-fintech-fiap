@@ -1,0 +1,22 @@
+@charset "UTF-8" ;
+
+
+section {
+    background-color: #202020;
+    color: aliceblue;
+    min-width: 300px ; 
+    max-width: 1100px;
+    padding-bottom: 100%;
+    margin: auto;
+    padding-top: -10%;
+    text-align: center;
+}
+
+h1 {
+    color: #FF914D;
+}
+
+button {
+   background-color: #FF914D;
+   color: aliceblue;
+}
