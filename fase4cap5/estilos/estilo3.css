@@ -1,22 +1,35 @@
 @charset "UTF-8" ;
 
-section {
+#inicio {
     background-color: #202020;
     color: aliceblue;
-    min-width: 300px ; 
     max-width: 1100px;
-    padding-bottom: 100%;
-    margin: auto;
-    padding-top: -10%;
-    text-align: center;
+    min-height: 350px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.534);
 }
 
 img {
-    
+    width: 110px;
+    margin: 135px;
+    margin-top: -60px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #FF914D;
-    padding-top: 10%;
-    padding-right: 60%;
+h5 {
+    margin-top: 50px;
+    margin-left: 130px;
+} 
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
 }
