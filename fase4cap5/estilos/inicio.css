@@ -19,9 +19,9 @@ body {
 
 #foto {
     width: 75px;
-    margin: 26px;
+    margin: 25px;
     margin-top: -50px;
-    margin-left: 263px;
+    margin-left: 300px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
@@ -31,7 +31,7 @@ h5 {
     margin-top: 90px;
     margin-left: 5px;
     color: #FF914D;
-    font-size: 1.3em;
+    font-size: 1.5em;
 } 
 
 p {
