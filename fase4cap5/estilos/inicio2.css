@@ -1,0 +1,122 @@
+@charset "UTF-8" ;
+
+body {
+    background-color: #000000;
+}
+
+#inicio {
+    background-color: #202020;
+    color: aliceblue;
+    width: 370px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.534);
+}
+
+#foto {
+    width: 75px;
+    margin: 26px;
+    margin-top: -50px;
+    margin-left: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-top: 90px;
+    margin-left: 40px;
+    color: #FF914D;
+    font-size: 1.3em;
+} 
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+#botao {
+    background-color: #FF914D;
+}
+
+#menu {
+    overflow-y: scroll;
+    height: 108px;
+}
+
+.caixas {
+    text-align: right;
+    background-color: #FF914D ;
+    height: 70px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+p.caixa {
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#saldo {
+    text-align: center;
+    background-color: #FF914D ;
+    height: 70px;
+    margin-bottom: 165px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+#img-receita {
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    margin-top: -56px;
+    margin-left: 30px;
+}
+
+#img-despesa {
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    margin-top: -56px;
+    margin-left: 30px;
+}
