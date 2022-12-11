@@ -20,7 +20,8 @@ p {
 #forms {
     background-color: #202020;
     color: aliceblue;
-    width: 370px;
+    min-width: 350px;
+    max-width: 1100px;
     display: flex;
     position: absolute;
     top: 50%;
